@@ -31,7 +31,7 @@ undetected until it reaches an advanced stage. This project aims to:
 
 | Detail | Info |
 |---|---|
-| Source | [UCI ML Repository](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease) |
+| Source | [Kaggle](https://www.kaggle.com/datasets/mansoordaku/ckdisease) |
 | Rows | 400 patients |
 | Columns | 25 features |
 | Target | CKD / Not CKD |
@@ -49,8 +49,7 @@ undetected until it reaches an advanced stage. This project aims to:
 kidney-failure-detection/
 │
 ├── data/
-│   ├── raw/                        # Original dataset
-│   └── processed/                  # Cleaned dataset
+│                   # Cleaned dataset
 │
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
@@ -66,11 +65,6 @@ kidney-failure-detection/
 │
 ├── app/
 │   ├── app.py                      # Streamlit main app
-│   ├── pages/
-│   │   ├── 01_data_overview.py
-│   │   ├── 02_eda.py
-│   │   ├── 03_prediction.py
-│   │   └── 04_model_performance.py
 │   └── utils/
 │       ├── load_data.py
 │       └── load_model.py
@@ -120,12 +114,8 @@ streamlit run app/app.py
 
 ## 📈 ML Models Used
 
-- [ ] Logistic Regression
+- [ ] naive_bayes(GaussianNB)
 - [ ] Decision Tree
-- [ ] Random Forest
-- [ ] K-Nearest Neighbors (KNN)
-- [ ] Support Vector Machine (SVM)
-- [ ] XGBoost
 
 > Best model selected based on Accuracy, F1-Score & ROC-AUC
 
