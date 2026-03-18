@@ -148,7 +148,7 @@ streamlit run app/app.py
 | Detail | Info |
 |---|---|
 | **Name** | Sumit Kumar |
-| **Course** | B.Sc / M.Sc / BCA / MCA (your course) |
+| **Course** | BCA |
 | **Institution** | SVSD BHATOLI |
 | **GitHub** | [@vanshu](https://github.com/sumitkumar1233edeedad) |
 
