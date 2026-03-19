@@ -1,8 +1,5 @@
-scikit-learn
-numpy
-pandas
-polars
-plotly
 streamlit
-altair
+pandas
+numpy
 joblib
+plotly
