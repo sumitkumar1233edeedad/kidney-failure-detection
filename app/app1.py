@@ -358,7 +358,7 @@ if predict_btn:
             for i, cls in enumerate(classes):
                 pct = proba[i] * 100
                 cls_label  = "CKD"     if cls in [0, "ckd", "CKD"] else "Not CKD"
-                bar_class  = "prob-bar-fill-ckd" if cls in [1, "ckd", "CKD"] else "prob-bar-fill-normal"
+                bar_class  = "prob-bar-fill-ckd" if cls in [0, "ckd", "CKD"] else "prob-bar-fill-normal"
                 st.markdown(f"""
                 <div class="prob-bar-wrap">
                   <div class="prob-label"><span>{cls_label}</span><span>{pct:.1f}%</span></div>
