@@ -10,11 +10,7 @@
 > for prediction and data exploration.
 
 ---
-
-## 🖥️ Live Demo
-👉 [Open Streamlit App](https://your-app-link.streamlit.app)
-
----
+[![Open App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://kidney-failure-detection-vanxy.streamlit.app)
 
 ## 📌 About the Project
 
