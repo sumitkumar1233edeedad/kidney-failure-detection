@@ -1,9 +1,5 @@
-scikit-learn
-numpy
-pandas
-polar
-plotly
 streamlit
-os
+pandas
+numpy
 joblib
 plotly
