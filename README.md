@@ -57,17 +57,9 @@ kidney-failure-detection/
 │   ├── 03_eda.ipynb
 │   ├── 04_feature_engineering.ipynb
 │   └── 05_model_building.ipynb
-│
-├── src/
-│   ├── preprocess.py
-│   ├── train.py
-│   └── evaluate.py
-│
 ├── app/
 │   ├── app.py                      # Streamlit main app
-│   └── utils/
-│       ├── load_data.py
-│       └── load_model.py
+│   
 │
 ├── outputs/
 │   ├── figures/
